@@ -111,7 +111,7 @@ When testing your application, keep in mind that it should work with floating po
 
 The `Thermostat` application is cool, but in only works using the commandline. The `Thermostat` should also be able to work using JSON. Many applications provide information in JSON format. Making sure our thermostat is able to receive and resond with JSON will make it usable in many more situations. 
 
-In this version, you will create a `JSONThermostat` Class that is able to receive the settings in a JSON String, and is able to repond with a JSON String containing the result.
+In this version, you will create a `JSONThermostat` Class that is able to receive the settings in a JSON String, and is able to respond with a JSON String containing the result.
 
 The `JSONThermostat` class can accept the **settings** in JSON format. The expected format is:
 
