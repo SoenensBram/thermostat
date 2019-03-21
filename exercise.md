@@ -111,7 +111,7 @@ When testing your application, keep in mind that it should work with floating po
 
 The `Thermostat` application is cool, but in only works using the commandline. The `Thermostat` should also be able to work using JSON. Many applications provide information in JSON format. Making sure our thermostat is able to receive and resond with JSON will make it usable in many more situations. 
 
-In this version, you will create a `JSONThermostat` Class that is able to receive the settings in a JSON String, and is able to repond with a JSON String containing the result.
+In this version, you will create a `JSONThermostat` Class that is able to receive the settings in a JSON String, and is able to respond with a JSON String containing the result.
 
 The `JSONThermostat` class can accept the **settings** in JSON format. The expected format is:
 
@@ -141,7 +141,7 @@ The return value of the `update` method will output a JSON formatted `String`. A
 
 #### Tests
 
-Instead of using an `app.rb` or other application to test the behaviour of the `JSONThermostat` we can me use of *Software Tests*. In the `test` directory you can find some tests that will create an instance of your `JSONThermostat` class and will run some code against it. When everything works as expected, the tests will PASS. If your implementation is not correct, the tests will FAIL. These test will give feedback on the expected behaviour of your code.
+Instead of using an `app.rb` or other application to test the behaviour of the `JSONThermostat` we can make use of *Software Tests*. In the `test` directory you can find some tests that will create an instance of your `JSONThermostat` class and will run some code against it. When everything works as expected, the tests will PASS. If your implementation is not correct, the tests will FAIL. These test will give feedback on the expected behaviour of your code.
 
 To run the tests, you can execute the following command:
 
